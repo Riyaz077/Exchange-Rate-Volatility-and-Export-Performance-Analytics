@@ -1,59 +1,69 @@
-# Impact-of-Exchange-Rate-Volatility-on-Export-Performance
+# Impact of Exchange Rate Volatility on Export Performance
 
-## Course: MGT1031 – International Business
+## Project Overview
 
-## 📌 Project Overview
+This project examines how fluctuations in the INR/USD exchange rate influence India's export performance. It uses annual data from 2000 to 2023 to study the relationship between exchange rate movements and export values.
 
-This project analyzes the impact of exchange rate volatility on export performance using econometric time-series methods, including ADF stationarity tests, GARCH (1,1) volatility modeling, regression analysis, and Granger causality.
+The analysis applies econometric techniques to understand exchange rate behaviour, measure volatility, and evaluate its relationship with export performance.
 
-## 📊 Dataset
+## Dataset
 
-- Exchange Rate (INR/USD): Annual average nominal exchange rate representing the value of the Indian Rupee against the US Dollar.
-- Export Values: Total export value of India, measured in monetary terms (USD).
-- Time Period: 2000–2023
+The study uses annual time-series data covering the period 2000–2023.
 
- Description:
-    The dataset consists of time-series data capturing movements in the INR/USD exchange rate and corresponding export values over the study period. It is structured chronologically and is suitable for econometric and volatility analysis, including stationarity testing, GARCH modeling, regression analysis, and Granger causality testing to examine the impact of exchange rate volatility on export performance.
+| Variable | Description |
+|---|---|
+| Exchange Rate (INR/USD) | Annual average exchange rate of the Indian Rupee against the US Dollar. |
+| Export Value | India's total annual export value, measured in USD. |
+| Time Period | 2000–2023 |
 
-## 🎯 Objective
+The dataset is arranged chronologically to support time-series analysis and econometric modelling.
 
-To examine the impact of exchange rate volatility on export performance using econometric time-series analysis.
+## Project Objectives
 
-## 🧪 Methodology
+- Examine the relationship between exchange rate movements and export performance.
+- Measure exchange rate volatility over the selected period.
+- Identify the effect of exchange rate fluctuations on India's exports.
+- Investigate whether exchange rate movements and export performance influence each other over time.
 
-- Descriptive Statistics
-- Trend Analysis
-- ADF Stationarity Test
-- Correlation Analysis
-- ARCH-LM Test
-- GARCH (1,1) Model
-- Regression Analysis
-- Granger Causality Test
+## Methodology
 
-## 🛠 Tools & Technologies
+The analysis follows these steps:
 
- Programming & Analysis:
+1. Descriptive Statistics – Understand the distribution and characteristics of the variables.
+2. Trend Analysis – Examine changes in exchange rates and export values over time.
+3. ADF Stationarity Test – Check the stationarity of the time-series data.
+4. Correlation Analysis – Identify the relationship between exchange rates and exports.
+5. ARCH-LM Test – Test for the presence of conditional heteroskedasticity.
+6. GARCH (1,1) Model – Estimate and analyse exchange rate volatility.
+7. Regression Analysis – Evaluate the relationship between exchange rate volatility and export performance.
+8. Granger Causality Test – Examine the predictive relationship between exchange rates and exports.
 
-- Python – Primary programming language used for data analysis and econometric modeling
-- Google Colab – Cloud-based environment for executing Python code and performing time-series analysis
+## Tools and Technologies
 
- Libraries & Packages: 
+**Programming Environment**
+- Python
+- Google Colab
 
-- Pandas – Data cleaning, manipulation, and time-series handling
-- NumPy – Numerical computations and array operations
-- Matplotlib / Seaborn – Data visualization and trend analysis
-- Statsmodels – Econometric modeling, including ADF test, regression analysis, ARCH–LM test, and Granger causality
-- ARCH – Implementation of ARCH and GARCH (1,1) volatility models
+**Libraries**
+- Pandas – Data processing and manipulation.
+- NumPy – Numerical computations.
+- Matplotlib and Seaborn – Data visualization.
+- Statsmodels – Statistical and econometric analysis.
+- ARCH – ARCH and GARCH volatility modelling.
 
-  ## 📌 Key Findings
+## Key Findings
 
-- Exchange rate volatility is persistent and exhibits clustering effects.
-- GARCH (1,1) effectively models exchange rate volatility.
-- Exchange rate volatility has a significant impact on export performance.
-- Evidence of Granger causality exists between exchange rates and exports.
+- Exchange rate movements show variations throughout the study period.
+- The GARCH (1,1) model captures the persistence of exchange rate volatility.
+- The regression analysis indicates a relationship between exchange rate volatility and export performance.
+- The Granger causality test provides insights into the predictive relationship between exchange rates and exports.
 
+## Conclusion
 
+The study highlights the importance of exchange rate stability in international trade. By applying econometric and time-series techniques, it provides insights into how currency fluctuations are associated with India's export performance.
 
+## Author
 
-
-
+**Mohamed Riyaz S.**  
+Integrated M.Tech, Computer Science and Engineering (Business Analytics)  
+VIT Chennai
