@@ -50,6 +50,44 @@ The project follows a structured econometric analysis workflow:
 - Statsmodels – Statistical and econometric modelling.
 - ARCH – ARCH and GARCH volatility estimation.
 
+### System Architecture
+
+The project follows a structured econometric analysis workflow, transforming historical exchange rate and export data into meaningful statistical insights.
+
+```text
+       Historical Data Collection
+                   |
+                   v
+           Data Preprocessing
+                   |
+                   v
+       Exploratory Data Analysis
+                   |
+                   v
+       Stationarity Analysis (ADF)
+                   |
+                   v
+        Volatility Diagnostics
+              (ARCH-LM)
+                   |
+                   v
+          GARCH (1,1) Model
+                   |
+                   v
+          Regression Analysis
+                   |
+                   v
+        Granger Causality Test
+                   |
+                   v
+        Results & Interpretation
+                   |
+                   v
+         Economic Insights
+```
+
+The workflow integrates descriptive analysis, stationarity testing, volatility estimation, and econometric modelling to investigate the relationship between exchange rate fluctuations and India's export performance.
+
 ### Key Findings
 
 - Exchange rate movements exhibit variations throughout the study period.
